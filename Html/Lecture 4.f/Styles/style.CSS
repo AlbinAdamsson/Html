@@ -40,3 +40,7 @@ h2{
 #myLink {
     text-decoration: none
 }
+
+[target] {
+    color: orange;
+}
