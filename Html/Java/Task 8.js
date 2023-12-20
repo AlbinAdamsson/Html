@@ -42,8 +42,3 @@ let squareRoot = Math.sqrt(25); // Calculates the square root of 25
 console.log('Random Number:', randomNumber);
 console.log('Square Root of 55:', squareRoot);
 
-
-//Task 5
-// Get a string input from the user
-const userString = prompt('Enter a string:');
-
