@@ -87,8 +87,25 @@ console.log(`!bool2: ${notResult}`);
 
 //Task 3
 let number1=3
+console.log (number1 + number1)
+console.log (--number1)
 console.log (++number1)
+console.log (number1/number1)
 let incResult=number1
 
 console.log(`Incremented: ${incResult}`);
 
+//Task 4
+
+let  Max = 10
+
+try{
+    Max =5;
+    Max*=2;
+}
+
+catch (error) {
+console.error("An erro ouccured:", error);
+}
+
+console.log("final value:", Max);
