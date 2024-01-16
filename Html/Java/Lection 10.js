@@ -63,3 +63,56 @@ for (let key in person)
 {
     console.log(key)
 }
+
+// Task 1
+const age = prompt('Please enter your age:');
+if (age < 18) 
+{
+console.log('You are a minor.');
+}
+
+else {
+console.log('You are an adult.');
+}
+
+
+//Task 2
+let f=2;
+let g=3;
+let h=1
+
+if (f>g) {
+    [f,g]=[g,f];
+}
+
+if (g>h) {
+    [h,g]=[g,h];
+}
+
+if (f>g) {
+    [f,g]=[g,f];
+}
+
+console.log  ("sorted values",f,g,h)
+
+//TAsk 3
+
+const numbers = [1, 5, 6, 7, 11];
+let squaredNumbers = [];
+let maxValue = numbers[0];
+let minValue = numbers[0];
+
+for (let i = 0; i < numbers.length; i++) {
+squaredNumbers.push(numbers[i] ** 2);
+
+if (numbers[i] > maxValue) {
+maxValue = numbers[i];
+}
+
+if (numbers[i] < minValue) {
+minValue = numbers[i];}
+
+}
+console.log('Squared Numbers:', squaredNumbers);
+console.log('Max Value:', maxValue);
+console.log('Min Value:', minValue);
