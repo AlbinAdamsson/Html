@@ -17,11 +17,25 @@
 //     }
 // });
 
-let input = document.getElementById("textInput");
-let charcount = document.getElementById("charcount");
+// let input = document.getElementById("textInput");
+// let charcount = document.getElementById("charcount");
 
-input.addEventListener("keyup", function(){
-    let text = input.value;
-    let count = text.length;
-    charcount.textContent = 'Charcrhter count: ' + count;
-})
+// input.addEventListener("keyup", function(){
+//     let text = input.value;
+//     let count = text.length;
+//     charcount.textContent = 'Charcrhter count: ' + count;
+// })
+
+
+// //TASK 1
+// let count = 0;
+
+// document.getElementById('myButton').addEventListener('click', function() {
+//   count++;
+//   document.getElementById('displayCount').textContent = count;
+// });
+
+//TASK 2
+document.getElementById('myInput').addEventListener('keyup', function() {
+    document.getElementById('displayDiv').textContent = this.value;
+  });
