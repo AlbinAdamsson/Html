@@ -36,6 +36,17 @@
 // });
 
 //TASK 2
-document.getElementById('myInput').addEventListener('keyup', function() {
-    document.getElementById('displayDiv').textContent = this.value;
-  });
+// document.getElementById('myInput').addEventListener('keyup', function() {
+//     document.getElementById('displayDiv').textContent = this.value;
+//   });
+
+//TASK3
+// document.getElementById("formen"). addEventListener('submit', function(event){
+//     event.preventDefault();
+//     document.getElementById('messageDiv').textContent = 'Form Submitted!';
+// });
+
+//TAsk 4
+document.getElementById('hoverDiv'). addEventListener('mouseover', function(){
+this.style.color = 'red';
+})
